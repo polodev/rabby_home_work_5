@@ -1,19 +1,20 @@
-# Business Data Management [BDM]     
-# Spring 2020    
-# Homework Assignment #5: Final Assignment       
+### Business Data Management [BDM]     
+### Spring 2020    
+### Homework Assignment #5: Final Assignment       
 **Student Name:**  MD. FAZLAY RABBY     
 **Student ID:**  18200610     
 
 # Part 1: Identify key components of the data model (60 points).     
 
 ## 1) Entities and attributes        
-* `arts: id, item_code, title, type, size`
-* `artists: artist_id, name, date_of_birth, date_of_death`
-* `artist_art: artist_id, art_id`
-* `museums: id, location_in_museum`
-* `traveling_shows: id, city, traveling_show_start_date, traveling_show_end_date`
-* `another_galleries: id, name, city, loan_start_date, loan_end_date      `
-* `art_presence: id, art_id, art_presence( 'display_at_the_museum', 'held_in_storage', 'traveling_show', 'loan_to_another_gallery' ), museum_id, traveling_show_id, another_gallery_id`
+
+* arts: id, item_code, title, type, size
+* artists: artist_id, name, date_of_birth, date_of_death
+* artist_art: artist_id, art_id
+* museums: id, location_in_museum
+* traveling_shows: id, city, traveling_show_start_date, traveling_show_end_date
+* another_galleries: id, name, city, loan_start_date, loan_end_date      
+* art_presence: id, art_id, art_presence( 'display_at_the_museum', 'held_in_storage', 'traveling_show', 'loan_to_another_gallery' ), museum_id, traveling_show_id, another_gallery_id
 
 ## 2) Identify relationships including the degree and cardinality of each relationship. 
 
