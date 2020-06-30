@@ -17,11 +17,11 @@
 
 ### 2) Identify relationships including the degree and cardinality of each relationship. 
 
-a. **arts & artists** this relationship is a degree of 2 (binary). The cardinality is
+a. `arts & artists` this relationship is a degree of 2 (binary). The cardinality is
 Many-to-Many between `arts` & `artists`. One arts can belongs to a artist and artist can have multiple art work.
 In some case, one cart could developed by list of artist. we use `artist_art` pivot table 
 
-b. **art_presence, artists, museums, traveling_shows, another_galleries**: this relationship is a degree of N-ary (n degree). The cardinality is
+b. `art_presence, artists, museums, traveling_shows, another_galleries`: this relationship is a degree of N-ary (n degree). The cardinality is
 (Mandatory)One-to-(Optional)One from arts to art_presence. Others cardinalities are (Optional)One-to-(Optional)One from `art_presence` to `museums`, `traveling_shows` & `another_galleries` .  
 
 # Part 2: Create a [logical] database schema based on your answers in Part 1 using MySQL Workbench (40 points).   
