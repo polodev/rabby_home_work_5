@@ -30,25 +30,25 @@ b. `art_presence, artists, museums, traveling_shows, another_galleries`: this re
 
 # Part 3: Develop a [physical] database on your MySQL server based on the database schema created in Part 2, and then insert data into each table. (50%)
 
-#### `arts` Table
+## `arts` Table
 <img src="pictures/table/1.PNG" alt="">          
 
-#### `artists` Table
+## `artists` Table
 <img src="pictures/table/2.PNG" alt="">          
 
-#### `artist_art` Table
+## `artist_art` Table
 <img src="pictures/table/3.PNG" alt="">          
 
-#### `museums` Table
+## `museums` Table
 <img src="pictures/table/4.PNG" alt="">          
 
-#### `traveling_shows` Table
+## `traveling_shows` Table
 <img src="pictures/table/5.PNG" alt="">          
 
-#### `another_galleries` Table
+## `another_galleries` Table
 <img src="pictures/table/6.PNG" alt="">          
 
-#### `art_presence` Table
+## `art_presence` Table
 <img src="pictures/table/7.PNG" alt="">          
 
 # Part 4: Prepare and run SELECT statements for the following queries (30%)
