@@ -26,36 +26,32 @@ b. `art_presence, artists, museums, traveling_shows, another_galleries`: this re
 
 # Part 2: Create a [logical] database schema based on your answers in Part 1 using MySQL Workbench (40 points).   
 
-<img src="pictures/eer_diagram.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/eer_diagram.PNG" alt="">          
 
 # Part 3: Develop a [physical] database on your MySQL server based on the database schema created in Part 2, and then insert data into each table. (50%)
 
 ## `arts` Table
-<img src="pictures/table/1.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/table/1.PNG" alt="">          
 
 ## `artists` Table
-<img src="pictures/table/2.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/table/2.PNG" alt="">          
 
 ## `artist_art` Table
-<img src="pictures/table/3.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/table/3.PNG" alt="">          
 
 ## `museums` Table
-<img src="pictures/table/4.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/table/4.PNG" alt="">          
 
 ## `traveling_shows` Table
-<img src="pictures/table/5.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/table/5.PNG" alt="">          
 
 ## `another_galleries` Table
-<img src="pictures/table/6.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/table/6.PNG" alt="">          
 
 ## `art_presence` Table
-<img src="pictures/table/7.PNG" alt="">          
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/table/7.PNG" alt="">          
 
 # Part 4: Prepare and run SELECT statements for the following queries (30%)
-
-2) List titles and types of artworks that were developed by ‘John Smith’ and participated in a show held in ‘Seoul’.
-3) List artwork names and names of galleries where artworks developed by ‘John Smith’ are loaned.
-Part 1 and other table(s). 
 
 
 ### 1) List titles and types of artworks that were developed by ‘John Smith’.        
@@ -69,7 +65,7 @@ where artists.name = 'John Smith';
 ~~~       
 
 **Output Result**  
-<img src="pictures/query_output/query_output_1.PNG" alt="">      
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/query_output/query_output_1.PNG" alt="">      
 
 
 ### 2) List titles and types of artworks that were developed by ‘John Smith’ and participated in a show held in ‘Seoul’.
@@ -89,7 +85,7 @@ where (
 ~~~       
 
 **Output Result**  
-<img src="pictures/query_output/query_output_2.PNG" alt="">      
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/query_output/query_output_2.PNG" alt="">      
 
 ### 3) List artwork names and names of galleries where artworks developed by ‘John Smith’ are loaned.       
 **Sql query**        
@@ -105,7 +101,7 @@ artists.name = 'John Smith';
 ~~~      
 
 **Output Result**  
-<img src="pictures/query_output/query_output_3.PNG" alt="">      
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/query_output/query_output_3.PNG" alt="">      
 
 ### 4) Count the number of artworks developed by ‘John Smith’. (Note: use COUNT() to count rows.)
       
@@ -120,7 +116,7 @@ GROUP BY 1;
 ~~~    
 
 **Output Result**  
-<img src="pictures/query_output/query_output_4.PNG" alt="">      
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/query_output/query_output_4.PNG" alt="">      
 
 ### 5) List artist names and the number of artworks developed by each artist.
       
@@ -134,7 +130,7 @@ GROUP BY 1;
 ~~~      
 
 **Output Result**  
-<img src="pictures/query_output/query_output_5.PNG" alt="">      
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/query_output/query_output_5.PNG" alt="">      
 
 ### 6) Create your own query that involves the table(s) transformed from the entity or entities that you added in
       
@@ -153,7 +149,7 @@ limit 10;
 ~~~      
 
 **Output Result**  
-<img src="pictures/query_output/query_output_6.PNG" alt="">      
+<img src="https://raw.githubusercontent.com/polodev/rabby_home_work_5/master/pictures/query_output/query_output_6.PNG" alt="">      
 
 
 
