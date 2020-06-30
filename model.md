@@ -10,7 +10,7 @@ art_presence
 ============ 
 id
 art_id
-art_presence enum( 'display_at_the_museum', 'held_in_storage', 'traveling_show', 'loan_to_another_gallery' )
+art_presence( 'display_at_the_museum', 'held_in_storage', 'traveling_show', 'loan_to_another_gallery' )
 museum_information_id
 traveling_show_id
 another_gallery_id
