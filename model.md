@@ -11,7 +11,7 @@ art_presence
 id
 art_id
 art_presence( 'display_at_the_museum', 'held_in_storage', 'traveling_show', 'loan_to_another_gallery' )
-museum_information_id
+museum_id
 traveling_show_id
 another_gallery_id
 
@@ -26,7 +26,6 @@ id
 city
 traveling_show_start_date
 traveling_show_end_date
-
 
 another_galleries
 ================
