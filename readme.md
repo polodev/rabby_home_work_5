@@ -9,7 +9,7 @@
 ## 1) Entities and attributes        
 
 * arts: id, item_code, title, type, size
-* artists: artist_id, name, date_of_birth, date_of_death
+* artists: id, name, date_of_birth, date_of_death
 * artist_art: artist_id, art_id
 * museums: id, location_in_museum
 * traveling_shows: id, city, traveling_show_start_date, traveling_show_end_date
@@ -20,7 +20,7 @@
 
 a. `arts & artists` this relationship is a degree of 2 (binary). The cardinality is
 Many-to-Many between `arts` & `artists`. One arts can belongs to a artist and artist can have multiple art work.
-In some case, one cart could developed by list of artist. we use `artist_art` pivot table 
+In some case, one art could developed by list of artist. we use `artist_art` pivot table 
 
 b. `art_presence, artists, museums, traveling_shows, another_galleries`: this relationship is a degree of N-ary (n degree). The cardinality is
 (Mandatory)One-to-(Optional)One from arts to art_presence. Others cardinalities are (Optional)One-to-(Optional)One from `art_presence` to `museums`, `traveling_shows` & `another_galleries` .  
